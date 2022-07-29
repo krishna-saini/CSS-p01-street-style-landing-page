@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Orbitron;
+}
+
+body {
+  /* set font size = 10px */
+  font-size: 62.5%;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  color: #555;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 4.8rem;
+  margin: 0 auto;
+}
+
+.navbar-container {
+  /* margin: 2rem 6rem; */
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  font-size: 1.4rem;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.list-item {
+  margin-right: 2rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.list-item:first-child {
+  position: relative;
+  font-weight: 700;
+}
+.list-item:first-child::after {
+  position: absolute;
+  left: 1rem;
+  top: 2rem;
+  width: 50px;
+  content: "";
+  border-top: 2px solid #000;
+}
+
+.search-icon svg {
+  width: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+/* HERO CONTAINER  */
+
+.hero-container {
+  padding: 4.8rem 0;
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  transform: translate(160px, 250px);
+  z-index: -1;
+}
+
+.square::after {
+  background-image: url("./assets/start.png");
+  transform: translate(53px, 0px);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 78px;
+  content: "";
+}
+
+.square img {
+  width: 250px;
+}
+
+.star {
+  position: absolute;
+  right: 100px;
+  /* transform: translate(50%, 50%); */
+}
+
+.star img {
+  width: 50px;
+}
+
+.globe {
+  position: absolute;
+  top: 7%;
+  left: 55%;
+}
+
+.globe img {
+  width: 50px;
+}
+
+.left-image {
+  float: left;
+}
+.left-image img {
+  height: 450px;
+}
+
+.globe + div ::after {
+  content: "";
+  clear: both;
+}
+
+.globe ~ div {
+}
+
+.hero-container-right {
+  padding-top: 4rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* selects all child  */
+.hero-container-right > * {
+  margin-bottom: 1.6rem;
+}
+
+.hero-heading {
+  font-size: 3.6rem;
+  margin-bottom: 2.8rem;
+}
+
+.hero-description {
+  font-size: 0.8rem;
+  padding: 0 11rem;
+  text-align: center;
+  margin-bottom: 2.8rem;
+}
+
+.hero-description ~ div {
+  margin-top: 2.4rem;
+}
+
+.button-email {
+  background-color: transparent;
+  font-size: 1rem;
+  color: #000;
+}
+.button-join {
+  margin-left: 1.2rem;
+  font-size: 1rem;
+  padding: 0.2rem;
+  background-color: black;
+  color: #ffffff;
+}
+
+.contact-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+}
+
+.hero-container-right:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  margin-bottom: 0;
+}
+
+.icons span img {
+  width: 2rem;
+  margin: 1rem 0 0 1rem;
+}
