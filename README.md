@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 -  [Solution URL](https://github.com/krishna-saini/CSS-p01-street-style-landing-page)
--  [Live Site URL]([https://saas-landing-page-by-krishna-saini.netlify.app/](https://street-style-landing-page-krishna-sainin.netlify.app/))
+-  [Live Site URL](https://street-style-landing-page-krishna-sainin.netlify.app/)
 
 ## My process
 
